@@ -1,7 +1,11 @@
 import 'dart:io';
 
 class AdHelper {
-  static bool test = false;
+  static bool test = true;
+  static String bannerTest = "ca-app-pub-3940256099942544/6300978111";
+  static String interstitialVideoTest = "ca-app-pub-3940256099942544/8691691433";
+
+
   static String bannerHome = "ca-app-pub-4048387074884321/2391455547";
   static String bannerPrivacy = "ca-app-pub-4048387074884321/9918591770";
   static String bannerId = "ca-app-pub-4048387074884321/2456417619";
@@ -12,7 +16,7 @@ class AdHelper {
 
   static String? get bannerAdUnitIdHome {
     if (test == true) {
-      return bannerHome;
+      return bannerTest;
     } else {
       if (Platform.isAndroid) {
         return bannerHome;
@@ -26,7 +30,7 @@ class AdHelper {
 
   static String? get bannerAdUnitPrivacy {
     if (test == true) {
-      return bannerPrivacy;
+      return bannerTest;
     } else {
       if (Platform.isAndroid) {
         return bannerPrivacy;
@@ -40,7 +44,7 @@ class AdHelper {
 
   static String? get bannerAdUnitId {
     if (test == true) {
-      return bannerId;
+      return bannerTest;
     } else {
       if (Platform.isAndroid) {
         return bannerId;
@@ -54,7 +58,7 @@ class AdHelper {
 
   static String? get bannerAdUnitId2 {
     if (test == true) {
-      return bannerId2;
+      return bannerTest;
     } else {
       if (Platform.isAndroid) {
         return bannerId2;
@@ -66,26 +70,10 @@ class AdHelper {
     }
   }
 
-
-
-  // static String get interstitialAdUnitId {
-  //   if (test==true) {
-  //     return "ca-app-pub-3940256099942544/1033173712";
-  //   } else {
-  //     if (Platform.isAndroid) {
-  //       return "ca-app-pub-1852376068783494/5191249407";
-  //     } else if (Platform.isIOS) {
-  //       return "ca-app-pub-1852376068783494/5191249407";
-  //     } else {
-  //       throw new UnsupportedError("Unsupported platform");
-  //     }
-  //   }
-  // }
-
   static String get interstitialVideoAdUnitId {
     if (test == true) {
       print("Video");
-      return interstitialVideo;
+      return interstitialVideoTest;
     } else {
       if (Platform.isAndroid) {
         return interstitialVideo;
@@ -100,7 +88,7 @@ class AdHelper {
   static String get interstitialVideoAdUnitIdHome {
     if (test == true) {
       print("Home");
-      return interstitialVideoHome;
+      return interstitialVideoTest;
     } else {
       if (Platform.isAndroid) {
         return interstitialVideoHome;
