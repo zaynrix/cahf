@@ -9,7 +9,7 @@
 <!--        ///TODO Initialized the id -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4048387074884321~7405476057"/>
+            android:value="ca-app-pub-4048387074884321~6745459484"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

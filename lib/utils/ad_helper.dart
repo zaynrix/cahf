@@ -6,18 +6,20 @@ class AdHelper {
   static String interstitialVideoTest = "ca-app-pub-3940256099942544/8691691433";
 
 
-  static String bannerHome = "ca-app-pub-4048387074884321/2391455547";
-  static String bannerPrivacy = "ca-app-pub-4048387074884321/9918591770";
-  static String bannerId = "ca-app-pub-4048387074884321/2456417619";
-  static String bannerId2 = "ca-app-pub-4048387074884321/4826047191";
-  static String interstitialVideo = "ca-app-pub-4048387074884321/7260638846";
+  static String bannerHome = "ca-app-pub-4048387074884321/5395637222";
+  static String bannerPrivacy = "ca-app-pub-4048387074884321/3507840487";
+  static String bannerId = "ca-app-pub-4048387074884321/2254468564";
+  static String bannerId2 = "ca-app-pub-4048387074884321/7255513803";
+  static String interstitialVideo = "ca-app-pub-4048387074884321/4629350467";
   static String interstitialVideoHome =
-      "ca-app-pub-4048387074884321/6779640151";
+      "ca-app-pub-4048387074884321/8377023780";
 
   static String? get bannerAdUnitIdHome {
     if (test == true) {
+      print("This tester");
       return bannerTest;
     } else {
+      print("This Liver");
       if (Platform.isAndroid) {
         return bannerHome;
       } else if (Platform.isIOS) {
