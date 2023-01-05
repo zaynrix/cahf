@@ -1,4 +1,4 @@
 class AppStrings {
-String appName= "جزء الأحقاف";
+String appName= "سورة الكهف";
 
 }

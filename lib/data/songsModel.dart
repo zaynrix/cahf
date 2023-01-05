@@ -12,68 +12,68 @@ final audios = <Audio>[
       },
 
       id: '1',
-      title: 'سورة الاحقاف',
+      title: 'سورة الكهف',
       artist: 'اضغط هنا للرجوع',
       album: AppStrings().appName,
       // image: MetasImage.network('https://www.google.com')
       // image: MetasImage.asset('assets/images/ch.jpg'),
     ),
   ),
-  Audio(
-    'assets/songs/2.mp3',
-    metas: Metas(
-      extra: {
-        "word": """
-
-""",
-      },
-      id: '2',
-      title: 'سورة محمد',
-      artist: 'اضغط هنا للرجوع',
-      album: AppStrings().appName,
-    ),
-  ),
-  Audio(
-    'assets/songs/3.mp3',
-    metas: Metas(
-      extra: {
-        "word": """
-
-""",
-      },
-      id: '3',
-      title: 'سورة الفتح',
-      artist: 'اضغط هنا للرجوع',
-      album: AppStrings().appName,
-    ),
-  ),
-  Audio(
-    'assets/songs/4.mp3',
-    metas: Metas(
-      extra: {
-        "word": """
-
-""",
-      },
-      id: '4',
-      title: 'سورة الحجرات',
-      artist: 'اضغط هنا للرجوع',
-      album: AppStrings().appName,
-    ),
-  ),
-  Audio(
-    'assets/songs/5.mp3',
-    metas: Metas(
-      extra: {
-        "word": """
-""",
-      },
-      id: '5',
-      title: 'سورة ق',
-      artist: 'اضغط هنا للرجوع',
-      album: AppStrings().appName,
-    ),
-  ),
+//   Audio(
+//     'assets/songs/2.mp3',
+//     metas: Metas(
+//       extra: {
+//         "word": """
+//
+// """,
+//       },
+//       id: '2',
+//       title: 'سورة محمد',
+//       artist: 'اضغط هنا للرجوع',
+//       album: AppStrings().appName,
+//     ),
+//   ),
+//   Audio(
+//     'assets/songs/3.mp3',
+//     metas: Metas(
+//       extra: {
+//         "word": """
+//
+// """,
+//       },
+//       id: '3',
+//       title: 'سورة الفتح',
+//       artist: 'اضغط هنا للرجوع',
+//       album: AppStrings().appName,
+//     ),
+//   ),
+//   Audio(
+//     'assets/songs/4.mp3',
+//     metas: Metas(
+//       extra: {
+//         "word": """
+//
+// """,
+//       },
+//       id: '4',
+//       title: 'سورة الحجرات',
+//       artist: 'اضغط هنا للرجوع',
+//       album: AppStrings().appName,
+//     ),
+//   ),
+//   Audio(
+//     'assets/songs/5.mp3',
+//     metas: Metas(
+//       extra: {
+//         "word": """
+// """,
+//       },
+//       id: '5',
+//       title: 'سورة ق',
+//       artist: 'اضغط هنا للرجوع',
+//       album: AppStrings().appName,
+//     ),
+//   ),
 //   Audio(
 //     'assets/songs/6.mp3',
 //     metas: Metas(

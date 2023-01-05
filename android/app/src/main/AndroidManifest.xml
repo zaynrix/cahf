@@ -1,9 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yahyaabunada.cahf">
-   <application
-        android:label="cahf"
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="سورة الكهف"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+<!--        ///TODO Initialized the id -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4048387074884321~7405476057"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
