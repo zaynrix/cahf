@@ -1,10 +1,10 @@
 import 'dart:io';
 
 class AdHelper {
-  static bool test = false;
+  static bool test = true;
   static String bannerTest = "ca-app-pub-3940256099942544/6300978111";
-  static String interstitialVideoTest = "ca-app-pub-3940256099942544/8691691433";
-
+  static String interstitialVideoTest =
+      "ca-app-pub-3940256099942544/8691691433";
 
   static String bannerHome = "ca-app-pub-4048387074884321/5395637222";
   static String bannerPrivacy = "ca-app-pub-4048387074884321/3507840487";
